@@ -1,0 +1,46 @@
+.card {
+  border-radius: 0.625rem;
+  max-width: clamp(300px, 4vw, 30%);
+  margin: 0.625rem auto;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.card-title {
+  background-color: rgb(140, 124, 238);
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+}
+.flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.card-title-content {
+  text-align: center;
+  padding: 0.625rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.card-body {
+  padding: 0.625rem;
+  background-color: rgb(108, 96, 185);
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+}
+
+.card-id-badge {
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  position: absolute;   
+  left: -10px;
+  top: -8px;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+}

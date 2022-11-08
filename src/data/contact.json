@@ -1,0 +1,25 @@
+{
+    "contacts": [
+      {
+        "id": 1,
+        "name": "Beyonce",
+        "tel": "123456",
+        "format": "jpg",
+        "email": "beyonce@jayz.com"
+      },
+      {
+        "id": 2,
+        "name": "Michael Jackson",
+        "tel": "122222",
+        "format": "jpg",
+        "email": "michael@jackson.com"
+      },
+      {
+        "id": 3,
+        "name": "Britney Spears",
+        "tel": "123333",
+        "format": "png",
+        "email": "britney@spears.com"
+      }
+    ]
+  }
